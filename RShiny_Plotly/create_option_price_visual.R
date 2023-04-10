@@ -2,6 +2,12 @@ library(shiny)
 library(plotly)
 
 # create_option_price_visual.R
+# This function creates a Shiny app with an interactive line plot of option prices. It takes in the following parameters:
+# option_type: "Call" or "Put"
+# host_address: Address of the server where the data is hosted
+# port_address: Port number on which the server is running
+# shiny_app_launch_address: Port number on which the Shiny app should be launched
+
 create_option_price_visual <- function(option_type, host_address, port_address, shiny_app_launch_address) {
   library(shiny)
   library(plotly)
@@ -83,3 +89,4 @@ create_option_price_visual <- function(option_type, host_address, port_address, 
   shinyApp(ui, server)
   runApp(list(ui = ui, server = server), port = shiny_app_launch_address)
 }
+w
