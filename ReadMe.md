@@ -20,8 +20,8 @@ The application flow is as follows:
 
 ### Starting the Python FastApi Server
 
-> Setup Python virtual environment by installing required packages
-> Start FastApi server
+>	A) Setup Python virtual environment by installing required packages
+>	B) Start FastApi server
 
 Following commands can be used to perform these two steps:
 
@@ -65,8 +65,8 @@ system(command2, wait = FALSE)
 
 ## Step 3: Install React dependencies and run React Server.
 
-> Setup React environment and install dependencies	   
-> Start React server	
+> 	A) Setup React environment and install dependencies	   
+>	B) Start React server	
 Go to the directory "react_frontend" and run the command terminal
 
 ```bash
