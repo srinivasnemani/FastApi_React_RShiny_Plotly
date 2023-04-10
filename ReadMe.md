@@ -20,8 +20,8 @@ The application flow is as follows:
 
 ### Starting the Python FastApi Server
 
->	A) Setup Python virtual environment by installing required packages
->	B) Start FastApi server
+*	A) Setup Python virtual environment by installing required packages
+*	B) Start FastApi server
 
 Following commands can be used to perform these two steps:
 
@@ -65,24 +65,23 @@ system(command2, wait = FALSE)
 
 ## Step 3: Install React dependencies and run React Server.
 
-> 	A) Setup React environment and install dependencies	   
->	B) Start React server	
+* A) Setup React environment and install dependencies	   
+* B) Start React server	
 Go to the directory "react_frontend" and run the command terminal
 
 ```bash
 	npm install --legacy-peer-deps
 	npm start 
 ```
-??? Add a hyperlik here....
 
 <a name="screenshots"></a>
 ### Screen shots of the application
 <screenshots name="screenshots">
 <img src="docs/fasapi_swagger_ui.PNG" alt="FastAPI Swagger UI" title="FastAPI Swagger UI" width="700" height="600">
 
-<img src="docs/react_front_end_page1.png" alt="Market Data Analysis page-1" title="Market Data Analysis page-1" width="900" height="600">
+<img src="docs/react_front_end_page1.png" alt="Market Data Analysis page-1" title="Market Data Analysis page-1" width="1200" height="900">
 
-<img src="docs/react_front_end_page2.png" alt="Market Data Analysis page-2" title="Market Data Analysis page-2" width="900" height="600">
+<img src="docs/react_front_end_page2.png" alt="Market Data Analysis page-2" title="Market Data Analysis page-2" width="1200" height="900">
 
 
 
