@@ -1,0 +1,25 @@
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.verdana-font {
+  font-family: Verdana, sans-serif;
+}
+
+.table-header-text {
+  font-size: 13px;
+  font-family: Verdana, sans-serif;
+}
+
+.table-cell-text {
+  font-size: 11px;
+  font-family: Verdana, sans-serif;
+}

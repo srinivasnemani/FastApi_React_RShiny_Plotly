@@ -1,0 +1,20 @@
+.dat-analysis-banner-styling {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  background-color: lightblue;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* YourCSSFileName.css */
+.upload_instruction_success_styling1 {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+}
+
+/* YourCSSFileName.css */
+.upload_instruction_success_styling2 {
+  font-family: Verdana, sans-serif;
+  font-size: 11px;
+}

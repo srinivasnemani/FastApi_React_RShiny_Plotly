@@ -1,0 +1,35 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.left-pane {
+  flex: 1;
+  max-width: 270px;
+  border: 2px solid green;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.content {
+  flex: 3;
+  margin-left: 2rem;
+}
+
+/* Add this new class */
+.page-style {
+  border: 2px solid orange;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+}
