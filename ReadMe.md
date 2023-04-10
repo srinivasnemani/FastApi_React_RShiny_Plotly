@@ -55,27 +55,9 @@ Note that in the free version of Shiny server, custom URLs are not allowed. Only
 
 Assuming that the user has installed R and required R packages such as Shiny and Plotly, set the current working folder to ".\RShiny_Plotly" in the command prompt and run the following R commands:
 
-[R Commands to run in R Studio Terminal to start Shiny Apps](./FastApi_React_RShiny_Plotly/blob/main/RShiny_Plotly/app.R)
+[R Commands to run in R Studio Terminal to start Shiny Apps](RShiny_Plotly/app.R)
 
-<pre>
-```R
-# Define the file path for the R installation
-location_R_Installation <- "C:/Program Files/R/R-4.2.3/bin"
 
-# Define the directory path for the Option Pricer files
-directory_path_option_pricer_files <- "C:/Users/WinVM2_2/Desktop/GitCommit/ShinyAppTest1/src_option_pricer/"
-# Set the working directory to the Option Pricer files directory
-setwd(directory_path_option_pricer_files)
-# Create the command to run the call_option_visual.R script using RScript.exe
-command1 <- paste0('"', normalizePath(file.path(location_R_Installation, "RScript.exe")), '" "', normalizePath(file.path(directory_path_option_pricer_files, "call_option_visual.R")), '"')
-# Execute the call_option_visual.R script without waiting for it to finish
-system(command1, wait = FALSE)
-# Create the command to run the put_option_visual.R script using RScript.exe
-command2 <- paste0('"', normalizePath(file.path(location_R_Installation, "RScript.exe")), '" "', normalizePath(file.path(directory_path_option_pricer_files, "put_option_visual.R")), '"')
-# Execute the put_option_visual.R script without waiting for it to finish
-system(command2, wait = FALSE)
-```
-</pre>
 
 ## Step 3: Install React dependencies and run React Server.
 
