@@ -12,14 +12,16 @@ The application flow is as follows:
 	2. Once the data is persisted in the database, user can select a date to generate option prices.
 	3. The option price plot is shown in the web page. The option prices can be downloaded in a CSV file.
 	
-	See below screenshots to understand the application flow. (Click Here)
+
+[See below screenshots to understand the application flow.](#screenshots)
+
 
 ## Step 1: Initialize Python and Run FastApi server
 
 ### Starting the Python FastApi Server
 
-A) Setup Python virtual environment by installing required packages
-B) Start FastApi server
+> Setup Python virtual environment by installing required packages
+> Start FastApi server
 
 Following commands can be used to perform these two steps:
 
@@ -63,11 +65,24 @@ system(command2, wait = FALSE)
 
 ## Step 3: Install React dependencies and run React Server.
 
-A) Setup React environment and install dependencies	
-B) Start React server	
+> Setup React environment and install dependencies	   
+> Start React server	
 Go to the directory "react_frontend" and run the command terminal
 
 ```bash
 	npm install --legacy-peer-deps
 	npm start 
 ```
+??? Add a hyperlik here....
+
+<a name="screenshots"></a>
+### Screen shots of the application
+<screenshots name="screenshots">
+<img src="docs/fasapi_swagger_ui.PNG" alt="FastAPI Swagger UI" title="FastAPI Swagger UI" width="600" height="500">
+
+<img src="docs/react_front_end_page1.png" alt="Market Data Analysis page-1" title="Market Data Analysis page-1" width="900" height="600">
+
+<img src="docs/react_front_end_page2.png" alt="Market Data Analysis page-2" title="Market Data Analysis page-2" width="900" height="600">
+
+
+
