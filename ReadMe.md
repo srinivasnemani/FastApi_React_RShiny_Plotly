@@ -20,7 +20,7 @@ This application has following interactions.
 1. Market data loading and database persistence: React GUI  to upload the CSV file __---->__ FastAPI POST call to persist the data to a Database
 2. Fetch Unique dates: 	React dropdown list __<---->__ FastAPI GET Call
 3. Show Option Price Visualizations: React event trigger based on date selected __<---->__ R-Shiny App(Plotly) __<---->__ Fast API GET call fetch option prices 
-4. Download calculated option  prices in a CSV file: React GUI __<---->__ Fast API GET call. 
+4. Download calculated option  prices in a CSV file: React paginated table __<---->__ Fast API GET call. 
 
 [See below screenshots of the application flow.](#screenshots)
 
