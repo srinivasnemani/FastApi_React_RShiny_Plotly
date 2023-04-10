@@ -15,6 +15,12 @@ The application flow is as follows:
 Object relation mapping(SQLAlchemy) is used to make the application portable and database technology agnostic. For simplicity, SQLLite db is used for storing the data in this demo. 
 Due to the restrictions of available features in the free versions of R-Connrect and R-Shiny server, some workarounds are chosen that mayn't be good application design choices in real world implementations.
 
+This application has following interactions.
+
+1. Market data loading and database persistence: React GUI interface to load the CSV file --> FastAPI POST call to persist the Database
+2. Fetch Unique dates: 	React  <----> FastAPI GET Call
+3. Show Option Price Visualizations: React event trigger based on date selected <--> Shiny App <--> Fast API GET call fetch option prices 
+4. Download calculated option  prices in a CSV file: React GUI <---> Fast API GET call. 
 
 [See below screenshots of the application flow.](#screenshots)
 
