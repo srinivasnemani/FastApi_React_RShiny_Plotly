@@ -43,9 +43,9 @@ python -m venv .venv
 python .\src\api_manager.py
 ```
 
-# Check if FastApi server is properly running
-
+#### Check if FastApi server is properly running
 - Check on the link: http://127.0.0.1:8080/docs
+
 
 ## Step 2: Run R-Shiny for enabling Plotly visualizations
 
@@ -71,7 +71,7 @@ Go to the directory "react_frontend" and run the command terminal
 ```
 
 <a name="screenshots"></a>
-### Screen shots of the application
+## Screen shots of the application
 <screenshots name="screenshots">
 <img src="docs/fasapi_swagger_ui.PNG" alt="FastAPI Swagger UI" title="FastAPI Swagger UI" width="700" height="600">
 
