@@ -80,12 +80,4 @@ Go to the directory "react_frontend" and run the command terminal
 <img src="docs/react_front_end_page2.png" alt="Market Data Analysis page-2" title="Market Data Analysis page-2" width="1200" height="900">
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0RWDF92QXG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0RWDF92QXG');
-</script>
+<script async src="https://github.com/srinivasnemani/FastApi_React_RShiny_Plotly/blob/main/react_frontend/src/analytics.js"></script>
