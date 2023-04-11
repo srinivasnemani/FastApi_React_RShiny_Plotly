@@ -80,4 +80,4 @@ Go to the directory "react_frontend" and run the command terminal
 <img src="docs/react_front_end_page2.png" alt="Market Data Analysis page-2" title="Market Data Analysis page-2" width="1200" height="900">
 
 
-<script async src="https://github.com/srinivasnemani/FastApi_React_RShiny_Plotly/blob/main/react_frontend/src/analytics.js"></script>
+<script async src="react_frontend/src/analytics.js"></script>
