@@ -1,3 +1,5 @@
+[![Python Build](https://github.com/srinivasnemani/FastApi_React_RShiny_Plotly/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/srinivasnemani/FastApi_React_RShiny_Plotly/actions/workflows/python-package-conda.yml)
+
 # Application Setup Instructions
 
 
